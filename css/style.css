@@ -40,6 +40,9 @@ h4 {
 img {
   width: 100%;
 }
+#about-me img {
+  width: 40%;
+ }
 a {
   color: #6198E8;
   text-decoration: none; /* No underlining */
