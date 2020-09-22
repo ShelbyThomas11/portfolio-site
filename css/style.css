@@ -44,11 +44,11 @@ img {
   width: 40%;
  }
 a {
-  color: #6198E8;
+  color: #FFFFFF;
   text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
-  color: #0A66EC;
+  color: #4a4a4a;
 }
 a:hover,
 a:focus {
@@ -146,7 +146,7 @@ nav > ul > li > a {
   color: #FFFFFF;
 }
 nav > ul > li > a:visited {
-  color: #0A66EC;
+  color: #4a4a4a;
 }
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
