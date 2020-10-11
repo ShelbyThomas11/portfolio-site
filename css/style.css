@@ -88,8 +88,7 @@ a:active { /* selected link */
 }
 header {
   background-color: #6198E8;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.25);
 -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.25);
 box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.25);
@@ -119,7 +118,8 @@ h1 {
   text-align: center; /* Centers text */
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
+  min-width: 250px;
 }
 img {
   max-height: 100em;
@@ -128,16 +128,10 @@ img {
 main {
   padding-top: 150px;
 }
-nav {
-  display: inline-block;
-  width: 100%
-}
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -156,6 +150,31 @@ nav > ul > li > a:focus {
 nav > ul > li > a:active { /* selected link */
   color: #994c30;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -168,6 +187,18 @@ nav {
     float: right;
     margin-top: 4px;
   }
+  nav > ul {
+  margin: 1em 0;
+}
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
   #hero span {
   display: block;
  }
