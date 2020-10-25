@@ -13,7 +13,7 @@ body {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+  color: #000000;
 }
 
 h1, h2, h3, h4 {
@@ -44,11 +44,11 @@ img {
   width: 40%;
  }
 a {
-  color: #7BF1A8;
+  color: #6198E8;
   text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
-  color: #4a4a4a;
+  color: #000000;
 }
 a:hover,
 a:focus {
@@ -60,8 +60,8 @@ a:active { /* selected link */
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #6198E8;
-  color: #ffffff; /* needed to override the default link color */
+  background-color: #C1FBA4;
+  color: #000000; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -84,10 +84,10 @@ a:active { /* selected link */
 }
 .button.contact:hover {
   background-color: #7BF1A8;
-  color: #ffffff;
+  color: #000000;
 }
 header {
-  background-color: #6198E8;
+  background-color: #C1FBA4;
   padding: 10px 0 4px;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.25);
 -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.25);
@@ -108,7 +108,7 @@ box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.25);
   border-bottom: 1px solid #4a4a4a;
 }
 #hero {
-  background-color: #6198E8;
+  background-color: #C1FBA4;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -137,10 +137,10 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #000000;
 }
 nav > ul > li > a:visited {
-  color: #4a4a4a;
+  color: #000000;
 }
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
@@ -209,7 +209,7 @@ nav {
     font-size: 18px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #4a4a4a;
+    color: #000000;
   }
   .col-md-6 {
   width: 50%;
@@ -248,7 +248,7 @@ Large devices (1024px or larger)
     font-size: 18px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #4a4a4a;
+    color: #000000;
   }
   .row::after {
   content: "";
